@@ -117,14 +117,14 @@ public class CarMain {
 					memberMgr.doLoginQuit();
 				}
 				break;
-			case LoginMenu.LOGIN_MENU_VIEW: // Member View
-				isMemberEmpty = memberMgr.isMemberEmpty();
-				if (isMemberEmpty) {
-					continue;
-				} else {
-					memberMgr.doLoginQuit();
-				}
-				break;
+//			case LoginMenu.LOGIN_MENU_VIEW: // Member View
+//				isMemberEmpty = memberMgr.isMemberEmpty();
+//				if (isMemberEmpty) {
+//					continue;
+//				} else {
+//					memberMgr.memberView();
+//				}
+//				break;
 			case LoginMenu.LOGIN_MENU_EXIT: // Program Exit
 				System.out.println("프로그램을 종료합니다.");
 				System.exit(0);

@@ -32,7 +32,7 @@ public class MemberMgr {
 				System.out.println("로그인 횟수를 초과했습니다.");
 				System.out.println("관련 직원 혹은 관리자에게 문의해주세요.");
 				System.out.println("프로그램을 종료합니다.");
-				break;
+				System.exit(0);
 			}
 			String inputID = "";
 			String inputPW = "";
@@ -68,7 +68,7 @@ public class MemberMgr {
 				System.out.println("로그인 횟수를 초과했습니다.");
 				System.out.println("관련 직원 혹은 관리자에게 문의해주세요.");
 				System.out.println("프로그램을 종료합니다.");
-				break;
+				System.exit(0);
 			}
 			String inputID = "";
 			String inputPW = "";
@@ -136,7 +136,7 @@ public class MemberMgr {
 				System.out.println("로그인 횟수를 초과했습니다.");
 				System.out.println("관련 직원 혹은 관리자에게 문의해주세요.");
 				System.out.println("프로그램을 종료합니다.");
-				break;
+				System.exit(0);
 			}
 			String inputID = "";
 			String inputPW = "";
