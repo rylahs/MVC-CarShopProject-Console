@@ -16,7 +16,7 @@ public class InsertMemberMenu {
 		String iMemberPassword = sc.nextLine();
 		System.out.print("捞抚 : ");
 		String iMemberName = sc.nextLine();
-		System.out.print("积魂老 : ");
+		System.out.print("林家 : ");
 		String iMemberAddress = sc.nextLine();
 		return new Member(iMemberId, iMemberPassword, iMemberName, iMemberAddress);
 	}

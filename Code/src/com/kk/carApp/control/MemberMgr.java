@@ -100,11 +100,13 @@ public class MemberMgr {
 						System.out.println("회원 정보 변경이 완료되었습니다.");
 						return;
 					} else if (modNum == ModifyMemberMenu.MEMBER_MODIFY_NAME) {
+						System.out.print("변경할 이름을 입력해주세요 : ");
 						String afterMName = sc.nextLine();
 						mDao.modifyMemberInfoName(getIdx, afterMName);
 						System.out.println("회원 정보 변경이 완료되었습니다.");
 						return;
 					} else if (modNum == ModifyMemberMenu.MEMBER_MODIFY_ADDRESS) {
+						System.out.print("변경할 주소를 입력해주세요 : ");
 						String afterMAddress = sc.nextLine();
 						mDao.modifyMemberInfoAddress(getIdx, afterMAddress);
 						System.out.println("회원 정보 변경이 완료되었습니다.");
